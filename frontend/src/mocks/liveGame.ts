@@ -30,8 +30,8 @@ export const mockLiveGame: LiveGameMock = {
     { label: "A puerta", home: 5, away: 3 },
     { label: "Córners", home: 6, away: 4 },
     { label: "Entradas área", home: 9, away: 5 },
-    { label: "Faltas", home: 11, away: 14 },
-    { label: "Fuera de juego", home: 2, away: 1 },
+    { label: "Último tercio", home: 18, away: 11 },
+    { label: "Recuperaciones", home: 24, away: 19 },
   ],
   updatedAt: "21:34:12",
 };

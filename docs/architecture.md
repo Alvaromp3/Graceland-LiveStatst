@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **frontend**: React dashboard for games, players, and teams.
+- **frontend**: React dashboard for games, team metrics, and teams.
 - **backend**: FastAPI REST + WebSocket API.
 - **worker-live**: RTMP ingest, CV pipeline, live event publishing.
 - **worker-reconciliation**: Post-match full-pass reprocess and stats update.

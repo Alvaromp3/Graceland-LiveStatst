@@ -4,7 +4,7 @@ import { UserAvatar } from "../ui";
 const navItems = [
   { to: "/", label: "Dashboard", index: "01", exact: true },
   { to: "/games", label: "Partidos", index: "02" },
-  { to: "/players", label: "Jugadores", index: "03" },
+  { to: "/features", label: "Métricas", index: "03" },
   { to: "/teams", label: "Equipos", index: "04" },
 ];
 
@@ -18,7 +18,7 @@ export default function AppHeader() {
     <header className="sticky top-0 z-20 border-b border-surface-border bg-surface/90 backdrop-blur-md">
       <div className="border-b border-surface-border/60 px-gutter py-1.5">
         <p className="mx-auto max-w-6xl font-mono text-[9px] uppercase tracking-[0.4em] text-content-muted">
-          Graceland Analytics · Temporada 24/25
+          Graceland Analytics · Solo métricas de equipo
         </p>
       </div>
 

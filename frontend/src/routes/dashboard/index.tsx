@@ -33,13 +33,13 @@ export default function DashboardPage() {
           </p>
           <div className="space-y-1 border-l border-surface-border pl-4">
             <p className="font-mono text-[9px] uppercase tracking-[0.3em] text-content-muted">
-              Módulo
+              Alcance
             </p>
             <p className="font-brand text-sm font-bold uppercase text-graceland">
-              Post-match
+              Solo equipo
             </p>
             <p className="font-mono text-[10px] text-content-secondary">
-              Upload → Process → Review
+              Posesión · tiros · táctica · sin jugadores
             </p>
           </div>
         </div>
