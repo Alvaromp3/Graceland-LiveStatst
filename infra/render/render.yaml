@@ -1,0 +1,4 @@
+# Render deployment skeleton
+# TODO: define services (backend, workers, frontend)
+
+services: []

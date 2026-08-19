@@ -2,24 +2,41 @@
 node_modules/
 .pnpm-store/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.Python
+
 # Env
 .env
 .env.*
 !.env.example
 
-# Build
-dist/
-build/
+# Build / cache
+*.tsbuildinfo
+.turbo/
 .next/
 out/
 coverage/
-*.tsbuildinfo
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Logs
 logs/
 *.log
-npm-debug.log*
-pnpm-debug.log*
+
+# Runtime
+.pids/
 
 # OS / IDE
 .DS_Store
@@ -27,7 +44,7 @@ Thumbs.db
 .idea/
 *.swp
 
-# Local
+# Temp
 .tmp/
-.turbo/
-.vercel
+*.mp4
+*.mkv

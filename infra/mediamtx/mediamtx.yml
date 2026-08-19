@@ -1,0 +1,6 @@
+# MediaMTX configuration skeleton
+# TODO: configure RTMP paths for live ingest
+
+paths:
+  live:
+    source: publisher

@@ -1,28 +1,24 @@
-# Graceland LiveStats
+# graceland-analytics
 
-Monorepo para estadísticas en vivo: frontend, backend y paquetes compartidos.
+Monorepo skeleton for live football analytics: frontend, API, live worker, and reconciliation worker.
 
-## Estructura
+## Structure
 
 ```
-frontend/         UI: dashboard, auth, live y settings
-backend/          API REST + WebSocket, jobs y tests
-packages/shared   Tipos, constantes y validadores
-packages/ui       Design system
-packages/config   ESLint, TypeScript y Prettier
-docs/             Arquitectura, API, producto y runbooks
-infra/            Docker, Nginx y Kubernetes
-scripts/          Scripts de db, deploy y desarrollo
-e2e/              Pruebas end-to-end
-tests/            Integración y carga
-.github/          CI y plantillas de PR/issues
+frontend/                 React + Vite + TypeScript + Tailwind
+backend/                  FastAPI + SQLAlchemy + Alembic
+worker-live/              Real-time ingest, detection, tracking, events
+worker-reconciliation/    Post-match reprocess and stats reconciliation
+shared/                   Cross-service Python types and constants
+infra/                    MediaMTX and Render deployment config
+docs/                     Architecture and integration notes
 ```
 
-## Apps
+## Quick start
 
-| Ruta | Rol |
-| --- | --- |
-| `frontend` | Dashboard, auth, live y settings |
-| `backend` | Auth, users, events, stats, live, health y worker |
+```bash
+cp .env.example .env
+docker compose up -d
+```
 
-Copia `.env.example` a `.env` antes de arrancar servicios.
+See each package README/TODO markers for next implementation steps.
